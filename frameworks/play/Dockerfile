@@ -1,4 +1,4 @@
-FROM simple/centos-java                                                                                                    
+FROM simple/java                                                                                                    
                                                                                                                            
 RUN cd /opt && \                                                                                                           
   wget http://downloads.typesafe.com/play/2.2.3/play-2.2.3.zip -O /opt/play.zip && \                                            
